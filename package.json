@@ -1,0 +1,34 @@
+{
+  "name": "news-scraper",
+  "version": "1.0.0",
+  "description": "All the News That's Fit to Scrape",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebk13579/news-scraper.git"
+  },
+  "keywords": [
+    "news",
+    "scraper",
+    "express",
+    "mongoose",
+    "cheerio"
+  ],
+  "author": "EBK",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ebk13579/news-scraper/issues"
+  },
+  "homepage": "https://github.com/ebk13579/news-scraper#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.4.10",
+    "morgan": "^1.9.1"
+  }
+}
